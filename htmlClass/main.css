@@ -1,7 +1,17 @@
+[data-header] {
+    color: blue;
+}
+
 #firstName{
     color: blue;
     background: yellow;
+    cursor: pointer;
 
+}
+
+#email {
+    background: red;
+    color: black;
 }
 .sampleButton{
     background: orange;
