@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Pattern</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Example for semantic Elements-->
+
+        <header align="center"> 
+                <h1> This is the example for header </h1>
+                <p> we can write small part of paragraph in this section</p>
+            </header>
+        
+            <div>
+                <p style="color:blue">this is to color</p>
+            </div>
+
+            <style> 
+            li{
+                color: brown;
+            }
+            </style>
+        
+            <nav>
+                <ul>
+                    <li>this is first line</li>
+                    <li>this is second line</li>
+                </ul>
+        
+                <ol>
+                    <li style="color: green;">first number line </li>
+                    <li>second number line</li>
+                </ol>
+            </nav>
+        
+            <article>This is the example for article</article>
+        
+            <section>This is the example for section</section>
+        
+            <h1 data-header>Size of h1</h1>
+        
+            <h2>Size of h2</h2>
+        
+            <h3>Size of h3</h3>
+        
+            <h4>Size of h4</h4>
+        
+            <h5>Size of h5</h5>
+        
+            <h6>Size of h6</h6>
+        
+            <footer>This is the example for footer</footer>
+    
+    <!-- Example for form-->
+    
+    <form action="">
+        <label for="firstName">First Name*: </label>
+        <input type="text" id="firstName" required autofocus> <br />
+        
+        <label for="lastName">Last Name: </label>
+        <input type="text" id="lastName" > <br />
+        
+        <label for="email">Email*: </label>
+        <input type="email" id= "email" required> <br />
+        
+        <input type="radio" name="gender" value="male">Male <br />
+        <input type="radio" name="gender" value="female">Female <br />
+        
+        <button class="sampleButton" onclick="clickEvent()"> Submit</button>
+        
+        <button id="reset"> Reset</button>
+        <!--<input type="button" value="reset">-->
+        <button class="fp"> Forgot Password</button>
+
+    </form>
+
+    <!--Audio or Video and Media example-->
+
+    <audio id ="" src="" controls "loop" autoplay></audio>
+    <video id ="video" src="" type="video/mp4"></video>
+
+    <!--Canvas Example-->
+
+    <canvas height="150" width="150" id="myCanvas"> </canvas>
+
+    <!-- Table Example-->
+
+    <table>
+        <tr>
+            <th> firstName</th> <!-- sample header for first row-->
+            <th> lastName</th> <!-- sample header for second row-->
+            <th> Location</th> <!-- sample header for third row-->
+        </tr>
+
+        <tr>
+            <td id="mycolor"> Pradeep Reddy</td>
+            <td id="mycolor"> Boyapalli</td>
+            <td id="mycolor"> Fremont</td>
+        </tr>
+
+        <tr> 
+            <td class="mycolor"> Prakash Reddy</td>
+            <td class="mycolor"> Boyapally</td>
+            <td class="mycolor"> Salt Lake City</td>
+        </tr>
+    </table>
+
+</body>
+</html>
