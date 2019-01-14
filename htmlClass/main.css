@@ -1,0 +1,45 @@
+#firstName{
+    color: blue;
+    background: yellow;
+
+}
+.sampleButton{
+    background: orange;
+    font-size: px;
+    font-style: italic;
+    border-radius: 8px;
+
+} 
+
+#reset {
+    border-radius: 8px;
+    background: red;
+    font-style: oblique;
+}
+
+.fp {
+    border-radius: 8px;
+    background: blue;
+    font-style: inherit;
+}
+
+#audio {
+    border: 1px solid red;
+}
+
+#video {
+    width: 600px;
+    border: 1px solid black;
+}
+
+#myCanvas {
+    border: 1px solid black;
+}
+
+#mycolor {
+    background: yellow;
+}
+
+.mycolor {
+    background: blue;
+}
